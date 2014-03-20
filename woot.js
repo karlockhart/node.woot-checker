@@ -1,6 +1,5 @@
 var jsdom = require('jsdom');
-var nodemailer = require('nodemailer');
-var async = require('async');
+var nodemailer = require('nodemailer');var async = require('async');
 
 var config = require('./config.json');
 
@@ -8,7 +7,7 @@ var hits = [];
 
 
 var transport = nodemailer.createTransport("SMTP", {
-    service: config.email.service,
+    service: config.email.service,  
     auth: {
         user: config.email.user,
         pass: config.email.pass
