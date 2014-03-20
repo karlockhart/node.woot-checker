@@ -1,5 +1,5 @@
 var jsdom = require('jsdom');
-var nodemailer = require('nodemailer');var async = require('async');
+var nodemailer = require('nodemailer');
 
 var config = require('./config.json');
 
