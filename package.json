@@ -1,0 +1,24 @@
+{
+  "name": "woot-checker",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Karl Lockhart <karl@karlockhart.com>",
+  "description": "a simple app to check woot for things I care about",
+  "contributors": [ 
+    {
+    } 
+  ],
+  "keywords": [
+    "cli",
+    "woot",
+    "notifier"
+  ],
+  "dependencies" : {
+    "jsdom"   :  "0.10.x",
+    "nodemailer" :  "0.6.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

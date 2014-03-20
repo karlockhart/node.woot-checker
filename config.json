@@ -1,0 +1,30 @@
+{
+
+    "email" : {
+      "from" : "user@gmail.com",
+      "to" : "user@gmail.com",
+      "service" : "Gmail",
+      "subject" : "Alert from Woot Notifier Service",
+      "user" : "user@gmail.com",
+      "pass" : "A very secure password"
+    },
+    "sites":
+            [
+                "http://woot.com",
+                "http://tech.woot.com",
+                "http://home.woot.com",
+                "http://tools.woot.com",
+                "http://sport.woot.com",
+                "http://accessories.woot.com",
+                "http://kids.woot.com",
+                "http://shirt.woot.com",
+                "http://wine.woot.com",
+                "http://sellout.woot.com"
+            ],
+    "keywords":
+            [
+                "hdtv",
+                "kershaw",
+                "butcher"
+            ]
+}
